@@ -26,16 +26,15 @@ Fokus utama pengujian adalah kemampuan Python, pengembangan REST API, pengelolaa
 - Database: SQLite.
 - Validasi data: Pydantic v2.
 - Pengujian: Pytest, Postman, cURL, atau Swagger UI.
-- LLM: Mock/simulasi diperbolehkan dan tidak wajib menggunakan API berbayar.
+- LLM Provider: Bebas, disarankan menggunakan Google Gemini API melalui Google AI Studio dengan free tier yang tersedia.
 
 Kandidat bebas menentukan struktur folder, pendekatan implementasi, dan metode retrieval yang digunakan selama kebutuhan utama sistem terpenuhi.
 
 **Catatan:**
-- Tidak perlu membuat frontend.
-- Tidak wajib menggunakan API key perusahaan.
-- Penggunaan API LLM pribadi atau model lokal diperbolehkan sebagai tambahan.
-- Jangan pernah memasukkan API key, password, atau kredensial pribadi ke repository GitHub.
-- Penggunaan Docker, Redis, vector database, dan teknologi tambahan lainnya bersifat opsional.
+- Kandidat dapat menggunakan API key pribadi dari provider AI yang dipilih.
+- Perusahaan tidak menyediakan API key maupun biaya penggunaan API.
+- Mock LLM diperbolehkan untuk kebutuhan testing, tetapi integrasi dengan LLM API tetap wajib dilakukan.
+- API key wajib disimpan melalui environment variable dan tidak boleh dicantumkan langsung dalam source code atau repository GitHub.
 
 ## 3. Gambaran Sistem dan Data Pengujian
 
